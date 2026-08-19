@@ -13,4 +13,4 @@ plt.ylabel("Marks")
 plt.title("Student Marks")
 
 # Display graph
-plt.show()git
+plt.show()
