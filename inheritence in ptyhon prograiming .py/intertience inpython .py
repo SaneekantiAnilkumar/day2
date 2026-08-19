@@ -1,14 +1,14 @@
 import matplotlib.pyplot as plt
 
 # Data
-students = ["Anil", "Rahul", "Suresh", "Ravi", "Kiran"]
-marks = [80, 70, 90, 60, 85]
+names = ["Python", "SQL", "Java", "C++", "Excel"]
+marks = [90, 80, 70, 65, 85]
 
-# Bar chart
-plt.bar(students, marks)
+# Create bar chart
+plt.bar(names, marks)
 
-# Labels and title
-plt.xlabel("Students")
+# Add labels
+plt.xlabel("Subjects")
 plt.ylabel("Marks")
 plt.title("Student Marks")
 
