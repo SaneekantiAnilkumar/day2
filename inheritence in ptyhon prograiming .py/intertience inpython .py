@@ -13,4 +13,5 @@ plt.ylabel("Marks")
 plt.title("Student Marks")
 
 # Display graph
-plt.show()
+plt.show() erghjkl
+gdgdfh
