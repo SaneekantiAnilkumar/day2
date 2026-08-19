@@ -1,18 +1,16 @@
-class Father:
-    def show(self):
-        super().show()
-        print("Father method")
+import matplotlib.pyplot as plt
 
-class Mother:
-    def show(self):
-        super().show()
-        print("Mother method")
+# Data
+students = ["Anil", "Rahul", "Suresh", "Ravi", "Kiran"]
+marks = [80, 70, 90, 60, 85]
 
-class Child(Father, Mother):
-    def show(self):
-        super().show()
-        print("Child method")
-         
-c=Child("anil", "savarvathi",)
-print(c.Father)
-print(c.Mother)
+# Bar chart
+plt.bar(students, marks)
+
+# Labels and title
+plt.xlabel("Students")
+plt.ylabel("Marks")
+plt.title("Student Marks")
+
+# Display graph
+plt.show()
